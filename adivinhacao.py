@@ -2,7 +2,6 @@ import random
 
 def jogar():
 
-    print("*********************************")
     print("Bem vindo ao jogo de Adivinhação!")
     print("*********************************")
 
@@ -38,13 +37,13 @@ def jogar():
         menor   = chute < numero_secreto
 
         if(acertou):
-            print("Você acertou e fez {} pontos!".format(pontos))
+            print("Você acertou irmão e fez {} pontos!".format(pontos))
             break
         else:
             if(maior):
-                print("Você errou! O seu chute foi maior do que o número secreto.")
+                print("Você errouuu! O seu chute foi pior que jogador do vasco(brincadeira).Seu chute foi maior do que o número secreto.")
             elif(menor):
-                print("Você errou! O seu chute foi menor do que o número secreto.")
+                print("Você errouuu! O seu chute foi bem menor do que o número secreto usa a cabeça ai.")
             pontos_perdidos = abs(numero_secreto - chute)
             pontos = pontos - pontos_perdidos
 
